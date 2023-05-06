@@ -1,0 +1,19 @@
+{
+  "name": "cypress-ez-parallelization",
+  "version": "1.0.0",
+  "description": "cypress parallelization made easy",
+  "main": "index.js",
+  "bin": {
+    "cy:ez-parallelization": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jesus david vivas martin",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.11.0",
+    "dotenv": "^16.0.3",
+    "glob": "^10.2.2"
+  }
+}
