@@ -10,7 +10,7 @@ async function main() {
 
   if (command === 'generate-config') {
     const configPath = args[1] || 'cypress-ez-parallelization.json';
-    const specsPath = args[2] || path.join(process.cwd(), 'cypress', 'integration');
+    const specsPath = args[2] || path.join(process.cwd(), 'cypress', 'e2e');
     const threads = parseInt(args[3], 10) || 2;
     const useDuration = args[4] ? args[4] === 'true' : true;
 
